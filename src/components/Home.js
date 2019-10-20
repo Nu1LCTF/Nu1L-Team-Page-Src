@@ -14,6 +14,7 @@ import {
     Segment,
     Sidebar,
     Visibility,
+    Statistic,
 } from 'semantic-ui-react'
 
 const Heading = () => (
@@ -74,7 +75,8 @@ const Members = () => (
                     <Button size='huge'>Find Them Out</Button>
                 </Grid.Column>
                 <Grid.Column floated='right' width={6}>
-                    <Image bordered rounded size='large' src='/images/white-image.png' />
+                    <Statistic label='Team Members' value='42' size='huge' />
+                    <p>或者这里放张图, 把队员的头像搞个图 (斜着的瀑布流...)</p>
                 </Grid.Column>
 
             </Grid.Row>
@@ -107,7 +109,7 @@ const Awards = () => (
                         Yes that's right, you thought it was the stuff of dreams, but even bananas can be
                         bioengineered.
             </p>
-            <Button size='huge'>More In Timeline</Button>
+            <Button size='huge' inverted>More In Timeline</Button>
                 </Grid.Column>
             </Grid.Row>
         </Grid>

@@ -20,6 +20,7 @@ import {
 
 import Home from './components/Home'
 import MemberComponent from './components/Member'
+import Contact from './components/Contact'
 
 const getWidth = () => {
   const isSSR = typeof window === 'undefined'
@@ -78,7 +79,7 @@ function App() {
           <Menu size='large' pointing secondary inverted>
             <Container>
               <Menu.Item inverted as={NavLink} name='home' to='/' activeClassName='active' exact> Home </Menu.Item>
-              <Menu.Item inverted as={NavLink} name='about' to='/about' activeClassName='active'> About us </Menu.Item>
+              {/* <Menu.Item inverted as={NavLink} name='about' to='/about' activeClassName='active'> About us </Menu.Item> */}
               <Menu.Item inverted as={NavLink} name='members' to='/members' activeClassName='active'>Members</Menu.Item>
               <Menu.Item inverted as={NavLink} name='home' to='/awards' activeClassName='active'>Awards</Menu.Item>
               <Menu.Item inverted as={NavLink} name='home' to='/contact' activeClassName='active'>Contact Us</Menu.Item>
@@ -92,7 +93,7 @@ function App() {
           <Route exact path="/about" />
           <Route exact path="/members" component={MemberComponent} />
           <Route exact path="/awards" />
-          <Route exact path="/contact" />
+          <Route exact path="/contact" component={Contact} />
         </Switch>
       </HashRouter>
       <Footer />
