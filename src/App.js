@@ -10,7 +10,7 @@ function App() {
     <div>
       <div>
         <ul>
-          <li><NavLink to="/" activeClassName="active"> Home </NavLink></li>
+          <li><NavLink exact to="/" activeClassName="active"> Home </NavLink></li>
           <li><NavLink to="/members" activeClassName="active"> Members </NavLink></li>
           <li><NavLink to="/awards" activeClassName="active"> Awards </NavLink></li>
           <li><NavLink to="/contact" activeClassName="active"> Contact Us </NavLink></li>
@@ -18,7 +18,7 @@ function App() {
       </div>
       <div>
         <Switch>
-          <Route path="/">
+          <Route exact path="/">
             <h1>Home</h1>
           </Route>
 
@@ -34,9 +34,6 @@ function App() {
             <h1>Contact Us</h1>
           </Route>
 
-          <Route path="/">
-            <h1>Home</h1>
-          </Route>
         </Switch>
       </div>
     </div>
