@@ -17,9 +17,9 @@ import {
     Statistic,
 } from 'semantic-ui-react'
 
-const Contact () => (
+const Contact=() => (
     <Segment inverted vertical>
-                    <Container style={{ minHeight: 300, padding: "4em 0em"}}>
+                    <Container style={{ minHeight: 200, padding: "4em 0em"}}>
                         <Header as='h2' icon inverted textAlign='center'>
                         <Icon name='grid layout' />
                         Members
@@ -29,6 +29,7 @@ const Contact () => (
                         </Header>
                         <Divider />
                     </Container>
+                    </Segment>
 )
 
 export default Contact
