@@ -82,7 +82,20 @@ export default class Members extends React.Component {
                         <Grid.Row textAlign='center'>
 
                             <Grid.Column>
-                                <Button size='huge'>Come & Join Us</Button>
+                            <Button
+                                basic
+                                color='blue'
+                                content='Come & Join Us'
+                                icon='paper plane outline'
+                                size='huge'
+                                label={{
+                                    as: 'a',
+                                    basic: true,
+                                    color: 'blue',
+                                    pointing: 'left',
+                                    content: this.state.member.length,
+                                }}
+                                />
                             </Grid.Column>
                         </Grid.Row>
                         </Grid>
