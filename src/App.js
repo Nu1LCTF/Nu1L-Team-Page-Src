@@ -20,6 +20,7 @@ import {
 
 import Home from './components/Home'
 import MemberComponent from './components/Member'
+import AwardComponent from './components/Award'
 
 const getWidth = () => {
   const isSSR = typeof window === 'undefined'
@@ -51,7 +52,7 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route exact path="/about" />
           <Route exact path="/members" component={MemberComponent} />
-          <Route exact path="/awards" />
+          <Route exact path="/awards" component={AwardComponent} />
           <Route exact path="/contact" />
         </Switch>
       </HashRouter>
