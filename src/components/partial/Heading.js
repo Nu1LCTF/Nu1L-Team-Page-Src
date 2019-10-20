@@ -1,11 +1,10 @@
 import React from 'react'
 
 import {
-    Button,
     Container,
     Header,
-    Icon,
     Segment,
+    Image,
 } from 'semantic-ui-react'
 
 const Heading = () => (
@@ -13,7 +12,6 @@ const Heading = () => (
         <Container text style={{ minHeight: 500, }}>
             <Header
                 as='h1'
-                content='Nu1L Team'
                 inverted
                 style={{
                     fontSize: '4em',
@@ -21,21 +19,21 @@ const Heading = () => (
                     marginBottom: 0,
                     marginTop: '3em',
                 }}
-            />
-            <Header
-                as='h2'
-                content='Hack for fun.'
-                inverted
-                style={{
-                    fontSize: '1.7em',
-                    fontWeight: 'normal',
-                    marginTop: '1.5em',
-                }}
-            />
-            <Button primary size='huge'>
-                More About Us
-            <Icon name='right arrow' />
-            </Button>
+            >
+                <Image src='/images/logo.png' />
+                <Header.Content>
+                    Nu1L Team
+        <Header.Subheader
+                        style={{
+                            fontSize: '0.5em',
+                            fontWeight: 'normal',
+                        }}
+                    >
+                        Hack for fun.
+                    </Header.Subheader>
+                </Header.Content>
+
+            </Header>
         </Container>
     </Segment>
 )
