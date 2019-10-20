@@ -17,6 +17,8 @@ import {
   Visibility,
 } from 'semantic-ui-react'
 
+import Home from './components/Home'
+
 const getWidth = () => {
   const isSSR = typeof window === 'undefined'
 
@@ -27,29 +29,30 @@ function App() {
   return (
     <Responsive getWidth={getWidth} minWidth={Responsive.onlyTablet.minWidth}>
       <HashRouter>
-            
-      <Segment
-        style={{ padding: '1em 0em' }}
-      >
-        <Menu size='large' >
-          <Container>
-            <Menu.Item as={ NavLink } name='home' to='/' activeClassName='active'> Home </Menu.Item>
-            <Menu.Item as={ NavLink } name='about' to='/about' activeClassName='active'> About us </Menu.Item>
-            <Menu.Item as={ NavLink } name='members' to='/members' activeClassName='active'>Members</Menu.Item>
-            <Menu.Item as={ NavLink } name='home' to='/awards' activeClassName='active'>Awards</Menu.Item>
-            <Menu.Item as={ NavLink } name='home' to='/contact' activeClassName='active'>Contact Us</Menu.Item>
-          </Container>
-        </Menu>
-      </Segment>
 
-      <Switch>
-                <Route exact path="/" />
-                <Route exact path="/about" />
-                <Route exact path="/members" />
-                <Route exact path="/awards" />
-                <Route exact path="/contact" />
-            </Switch>
-        </HashRouter>
+        <Segment inverted vertical
+          style={{ padding: '1em 0em' }}
+        >
+          <Menu size='large' pointing secondary inverted>
+            <Container>
+              <Menu.Item inverted as={NavLink} name='home' to='/' activeClassName='active' exact> Home </Menu.Item>
+              <Menu.Item inverted as={NavLink} name='about' to='/about' activeClassName='active'> About us </Menu.Item>
+              <Menu.Item inverted as={NavLink} name='members' to='/members' activeClassName='active'>Members</Menu.Item>
+              <Menu.Item inverted as={NavLink} name='home' to='/awards' activeClassName='active'>Awards</Menu.Item>
+              <Menu.Item inverted as={NavLink} name='home' to='/contact' activeClassName='active'>Contact Us</Menu.Item>
+            </Container>
+          </Menu>
+          
+        </Segment>
+
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" />
+          <Route exact path="/members" />
+          <Route exact path="/awards" />
+          <Route exact path="/contact" />
+        </Switch>
+      </HashRouter>
     </Responsive>
   )
 }
