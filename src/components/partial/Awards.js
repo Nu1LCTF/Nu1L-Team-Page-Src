@@ -10,12 +10,12 @@ import AwardFeed from './AwardFeed'
 
 const Awards = () => (
     <Segment style={{ padding: '8em 0em' }} vertical inverted color='grey'>
-        <Grid container stackable verticalAlign='middle'>
+        <Grid container stackable>
             <Grid.Row>
                 <Grid.Column width={8}>
                     <AwardFeed />
                 </Grid.Column>
-                <Grid.Column floated='right' width={6}>
+                <Grid.Column floated='right' width={6} verticalAlign='middle'>
                     <Header as='h3' style={{ fontSize: '2em' }} inverted>
                         Awarded in the competitions
             </Header>

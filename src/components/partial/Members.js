@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Segment, Grid, Image, Button, Popup, Header } from 'semantic-ui-react';
+import { Card, Segment, Grid, Image, Button, Popup, Header, Container } from 'semantic-ui-react';
 
 export default class Members extends React.Component {
     constructor(props) {
@@ -24,7 +24,7 @@ export default class Members extends React.Component {
         } else {
             return (
                 <Segment vertical style={{ padding: '8em 0em' }}>
-                    <Grid container stackable verticalAlign='middle'>
+                    <Grid container verticalAlign='middle'>
                         <Grid.Row textAlign='center'>
                             <Grid.Column>
                                 <Header as='h3' style={{ fontSize: '2em' }}>
@@ -32,12 +32,10 @@ export default class Members extends React.Component {
                     </Header>
                             </Grid.Column>
                         </Grid.Row>
-                        <Grid.Row textAlign='center'>
+                        <Grid.Row>
                             <Grid.Column>
-                                <Card.Group itemsPerRow={4}>
+                                <Card.Group stackable centered>
                                     {this.state.member.map((member, index) =>
-                                        <Popup
-                                            trigger={
                                                 <Card>
                                                     <Card.Content>
                                                         <Image
@@ -62,19 +60,6 @@ export default class Members extends React.Component {
                                                         </div>
                                                     </Card.Content>
                                                 </Card>
-                                            }
-                                        >
-                                            <Popup.Header>{member.name}</Popup.Header>
-                                            <Popup.Content>
-                                                <Card
-                                                    image={member.avatar}
-                                                    header={member.name}
-                                                    meta={member.direction}
-                                                    description={member.desc}
-                                                >
-                                                </Card>
-                                            </Popup.Content>
-                                        </Popup>
                                     )}
                                 </Card.Group>
                             </Grid.Column>

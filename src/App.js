@@ -13,12 +13,12 @@ import SMenu from './components/partial/Menu'
 const getWidth = () => {
   const isSSR = typeof window === 'undefined'
 
-  return isSSR ? Responsive.onlyTablet.minWidth : window.innerWidth
+  return isSSR ? Responsive.onlyMobile.minWidth : window.innerWidth
 }
 
 function App() {
   return (
-    <Responsive getWidth={getWidth} minWidth={Responsive.onlyTablet.minWidth}>
+    <Responsive getWidth={getWidth} minWidth={Responsive.onlyMobile.minWidth}>
       <HashRouter>
         <SMenu />
         <Switch>

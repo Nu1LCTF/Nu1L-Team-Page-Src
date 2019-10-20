@@ -5,6 +5,7 @@ import {
     Header,
     Segment,
     Image,
+    Reveal,
 } from 'semantic-ui-react'
 
 const Heading = () => (
