@@ -57,7 +57,7 @@ const Members = () => (
                         From Team of Four
             </Header>
                     <p style={{ fontSize: '1.33em' }}>
-                        // 什么时候成立的
+                        // 什么时候成立的, 带历史学家
 
                         We can give your company superpowers to do things that they never thought possible.
                         Let us delight your customers and empower your needs... through pure data analytics.
@@ -66,7 +66,7 @@ const Members = () => (
                         To A Large Family
             </Header>
                     <p style={{ fontSize: '1.33em' }}>
-                        // 逐步扩大 blabla blahhh
+                        // 现在正在干啥  blabla blahhh
 
                         Yes that's right, you thought it was the stuff of dreams, but even bananas can be
                         bioengineered.
@@ -79,45 +79,6 @@ const Members = () => (
 
             </Grid.Row>
         </Grid>
-    </Segment>
-)
-
-const Footer = () => (
-    <Segment inverted vertical style={{ padding: '5em 0em' }}>
-        <Container>
-            <Grid divided inverted stackable>
-                <Grid.Row>
-                    <Grid.Column width={3}>
-                        <Header inverted as='h4' content='About' />
-                        <List link inverted>
-                            <List.Item as='a'>Sitemap</List.Item>
-                            <List.Item as='a'>Contact Us</List.Item>
-                            <List.Item as='a'>Religious Ceremonies</List.Item>
-                            <List.Item as='a'>Gazebo Plans</List.Item>
-                        </List>
-                    </Grid.Column>
-                    <Grid.Column width={3}>
-                        <Header inverted as='h4' content='Services' />
-                        <List link inverted>
-                            <List.Item as='a'>Banana Pre-Order</List.Item>
-                            <List.Item as='a'>DNA FAQ</List.Item>
-                            <List.Item as='a'>How To Access</List.Item>
-                            <List.Item as='a'>Favorite X-Men</List.Item>
-                        </List>
-                    </Grid.Column>
-                    <Grid.Column width={7}>
-                        <Header as='h4' inverted>
-                            Footer Header
-              </Header>
-                        <p>
-                            // 这里想看看能不能联动小密圈把recent post加上
-
-                            Extra space for a call to action inside the footer that could help re-engage users.
-              </p>
-                    </Grid.Column>
-                </Grid.Row>
-            </Grid>
-        </Container>
     </Segment>
 )
 
@@ -207,8 +168,6 @@ const Home = () => (
         <Awards />
 
         <JoinUs />
-
-        <Footer />
     </div>
 )
 
