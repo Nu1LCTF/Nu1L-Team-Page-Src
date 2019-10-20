@@ -1,5 +1,6 @@
 import React from 'react'
 import 'semantic-ui-css/semantic.min.css'
+import './App.css'
 import { NavLink, Route, HashRouter, Switch } from 'react-router-dom'
 import {
   Button,
@@ -18,6 +19,7 @@ import {
 } from 'semantic-ui-react'
 
 import Home from './components/Home'
+import MemberComponent from './components/Member'
 
 const getWidth = () => {
   const isSSR = typeof window === 'undefined'
@@ -48,7 +50,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/about" />
-          <Route exact path="/members" />
+          <Route exact path="/members" component={MemberComponent} />
           <Route exact path="/awards" />
           <Route exact path="/contact" />
         </Switch>
