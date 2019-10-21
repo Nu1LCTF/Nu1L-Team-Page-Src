@@ -1,0 +1,27 @@
+name: github pages
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@master
+
+      - uses: sergioramos/yarn-actions/install@master
+        with:
+          frozen-lockfile: true
+
+      - name: Build
+        run: yarn build
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v2.5.0
+        env:
+          ACTIONS_DEPLOY_KEY: ${{ secrets.SECRET_KEY }}
+          EXTERNAL_REPOSITORY: Nu1LCTF/Nu1L-Team-Page 
+          PUBLISH_BRANCH: master
+          PUBLISH_DIR: ./build
