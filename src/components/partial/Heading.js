@@ -24,7 +24,7 @@ export default class JoinUsModal extends Component {
             <Segment inverted vertical >
                 <Particles
                     style={{
-                        position: "fixed",
+                        position: "absolute",
                         right: "0",
                         top: "0",
                         bottom: "0",
