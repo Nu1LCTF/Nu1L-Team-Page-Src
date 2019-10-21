@@ -24,7 +24,7 @@ export default class Members extends React.Component {
             )
         } else {
             return (
-                <Segment vertical style={{ padding: '8em 0em' }}>
+                <Segment vertical style={{ padding: '8em 0em 2em' }}>
                     <Grid container verticalAlign='middle'>
                         <Grid.Row textAlign='center'>
                             <Grid.Column>

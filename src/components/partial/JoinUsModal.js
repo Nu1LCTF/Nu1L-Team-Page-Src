@@ -47,6 +47,7 @@ export default class JoinUsModal extends Component {
                         <List.Item>ID: `Incognito`</List.Item>
                         <List.Item>Skill: `Pwn`</List.Item>
                         <List.Item>Profile: `From where`</List.Item>
+                        <List.Item>P.S. Please attached your achievements as detailed as possible.</List.Item>
                     </List>
                 </Modal.Content>
                 <Modal.Actions>
