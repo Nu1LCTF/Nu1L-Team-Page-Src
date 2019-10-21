@@ -10,7 +10,7 @@ import {
 const SMenu = () => (
     <Segment inverted vertical
         style={{ padding: '1em 0em' }} >
-        <Menu size='large' pointing secondary inverted>
+        <Menu size='large' pointing secondary inverted style={{ border: "0px" }}>
             <Container>
                 <Menu.Item as={NavLink} name='home' to='/' activeClassName='active' exact> Home </Menu.Item>
                 <Menu.Item as={NavLink} name='members' to='/members' activeClassName='active'>Members</Menu.Item>
