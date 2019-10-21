@@ -15,12 +15,11 @@ const Footer = () => (
             <Grid divided inverted stackable>
                 <Grid.Row>
                     <Grid.Column width={3}>
-                        <Header inverted as='h4' content='About' />
+                        <Header inverted as='h4' content='Contact Us' />
                         <List link inverted>
-                            <List.Item as='a'>Sitemap</List.Item>
-                            <List.Item as='a'>Contact Us</List.Item>
-                            <List.Item as='a'>Religious Ceremonies</List.Item>
-                            <List.Item as='a'>Gazebo Plans</List.Item>
+                            <List.Item as='a' href="mailto:Nu1Lctf@163.com">Email</List.Item>
+                            <List.Item as='a'>Wechat</List.Item>
+                            <List.Item as='a' href="https://twitter.com/Nu1L_Team">Twitter</List.Item>
                         </List>
                     </Grid.Column>
                     <Grid.Column width={3}>
@@ -34,12 +33,10 @@ const Footer = () => (
                     </Grid.Column>
                     <Grid.Column width={7}>
                         <Header as='h4' inverted>
-                            Footer Header
+                            Recent Posts
               </Header>
                         <p>
-                            // 这里想看看能不能联动小密圈把recent post加上
-  
-                            Extra space for a call to action inside the footer that could help re-engage users.
+                            zsxq
               </p>
                     </Grid.Column>
                 </Grid.Row>

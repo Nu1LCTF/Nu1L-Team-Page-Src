@@ -3,313 +3,322 @@
         "name": "Venenof7",
         "direction": "web",
         "desc": "Team leader.Web🐶",
-        "avatar": "../images/venenof.jpeg",
+        "avatar": "/images/venenof.jpeg",
         "blog": "https://venenof7.com"
     },
-    
     {
         "name": "Albertchang",
         "direction": "web",
         "desc": "睡姿销魂",
-        "avatar": "../images/al.jpg",
+        "avatar": "/images/al.jpg",
         "blog": "https://nu1l-ctf.com"
     },
     {
         "name": "Marche147",
         "direction": "ALL",
-        "desc": "自己膜自己的升博,
-        "avatar": "../images/chen.jpg",
+        "desc": "自己膜自己的升博",
+        "avatar": "/images/chen.jpg",
         "blog": "https://nu1l-ctf.com"
     },
     {
         "name": "Misty",
         "direction": "Re",
         "desc": "Cosplay 大佬怕不怕",
-        "avatar": "../images/misty.jpg",
+        "avatar": "/images/misty.jpg",
         "blog": "https://nu1l-ctf.com"
     },
     {
         "name": "Q7",
         "direction": "Misc/Crypto",
         "desc": "会日汽车的黑客",
-        "avatar": "../images/q7.png",
+        "avatar": "/images/q7.png",
         "blog": "https://nu1l-ctf.com"
-    },    {
+    },
+    {
         "name": "bird",
         "direction": "Re/Pwn",
         "desc": "tql",
-        "avatar": "../images/bird.png",
+        "avatar": "/images/bird.png",
         "blog": "https://nu1l-ctf.com"
-    },    {
+    },
+    {
         "name": "pipig",
         "direction": "Misc",
         "desc": "misc选手",
-        "avatar": "../images/pipig.jpg",
+        "avatar": "/images/pipig.jpg",
         "blog": "https://nu1l-ctf.com"
-    },    {
+    },
+    {
         "name": "BurningCodes",
         "direction": "apk",
         "desc": "APK大佬",
-        "avatar": "../images/bu.jpg",
+        "avatar": "/images/bu.jpg",
         "blog": "https://nu1l-ctf.com"
-    },    {
+    },
+    {
         "name": "wxy",
         "direction": "Re",
         "desc": "面无表情甚至还想笑",
-        "avatar": "../images/wxy.png",
+        "avatar": "/images/wxy.png",
         "blog": "https://nu1l-ctf.com"
-    },    {
+    },
+    {
         "name": "markak_",
         "direction": "Pwn",
         "desc": " pwn爷爷",
-        "avatar": "../images/mark.jpg",
+        "avatar": "/images/mark.jpg",
         "blog": "https://nu1l-ctf.com"
-    },    
+    },
     {
         "name": "画船听雨",
         "direction": "web",
         "desc": "xsser",
-        "avatar": "../images/xl.jpg",
+        "avatar": "/images/xl.jpg",
         "blog": "https://nu1l-ctf.com"
     },
-        {
+    {
         "name": "explorer",
         "direction": "Pwn",
         "desc": "pwn爷爷",
-        "avatar": "../images/exp.jpg",
+        "avatar": "/images/exp.jpg",
         "blog": "https://nu1l-ctf.com"
     },
-        {
+    {
         "name": "scanf",
         "direction": "web",
         "desc": "内网小王子",
-        "avatar": "../images/scanf.jpg",
+        "avatar": "/images/scanf.jpg",
         "blog": "https://nu1l-ctf.com"
     },
-        {
+    {
         "name": "wupco",
         "direction": "web/Pwn",
         "desc": "hacked by wupco",
-        "avatar": "../images/wupco.png",
+        "avatar": "/images/wupco.png",
         "blog": "https://nu1l-ctf.com"
     },
-        {
+    {
         "name": "bailisong",
         "direction": "web",
         "desc": "百里送",
-        "avatar": "../images/bailisong.jpg",
+        "avatar": "/images/bailisong.jpg",
         "blog": "https://nu1l-ctf.com"
     },
-        {
+    {
         "name": "Micgo",
         "direction": "Pwn",
         "desc": " pwner",
-        "avatar": "../images/misc.jpg",
+        "avatar": "/images/mic.jpg",
         "blog": "https://nu1l-ctf.com"
     },
-        {
+    {
         "name": "L3mon",
         "direction": "web",
         "desc": "大柠檬，你值得拥有",
-        "avatar": "../images/lemon.jpg",
+        "avatar": "/images/lemon.jpg",
         "blog": "https://nu1l-ctf.com"
     },
-        {
+    {
         "name": "Homura",
         "direction": "Pwn",
         "desc": "姚老板",
-        "avatar": "../images/homura.jpg",
+        "avatar": "/images/homura.jpg",
         "blog": "https://nu1l-ctf.com"
     },
-        {
+    {
         "name": "acdxvfsvd",
         "direction": "Re/Crypto",
         "desc": "左边的比我强",
-        "avatar": "../images/acd.jpg",
+        "avatar": "/images/acd.jpg",
         "blog": "https://nu1l-ctf.com"
     },
-        {
+    {
         "name": "virusdefender",
         "direction": "web",
         "desc": "真的，贼高贼壮",
-        "avatar": "../images/y.jpg",
+        "avatar": "/images/y.jpg",
         "blog": "https://nu1l-ctf.com"
     },
-            {
+    {
         "name": "渡。",
         "direction": "Re",
         "desc": "RE爷爷",
-        "avatar": "../images/over.jpg",
+        "avatar": "/images/over.jpg",
         "blog": "https://nu1l-ctf.com"
     },
-            {
+    {
         "name": "Hcamael",
         "direction": "ALL",
         "desc": "想有个女朋友",
-        "avatar": "../images/ida.jpg",
+        "avatar": "/images/ida.jpg",
         "blog": "https://nu1l-ctf.com"
     },
-            {
+    {
         "name": "雨了个雨",
         "direction": "web",
         "desc": "雨爷爷，都懂",
-        "avatar": "../images/yu.jpg",
+        "avatar": "/images/yu.jpg",
         "blog": "https://nu1l-ctf.com"
     },
-            {
+    {
         "name": "pzhxbz",
         "direction": "Pwn",
         "desc": "PWN爷爷再+1",
-        "avatar": "../images/pzh.jpg",
+        "avatar": "/images/pzh.jpg",
         "blog": "https://nu1l-ctf.com"
     },
-
-            {
+    {
         "name": "pulsls",
         "direction": "Pwn",
         "desc": "pzh的超强学弟",
-        "avatar": "../images/puls.png",
+        "avatar": "/images/plus.png",
         "blog": "https://nu1l-ctf.com"
     },
     {
         "name": "4uuu Nya",
         "direction": "web",
         "desc": "一只菜🐕️，一条咸🐠",
-        "avatar": "../images/4.jpg",
+        "avatar": "/images/4.jpg",
         "blog": "https://qvq.im"
-    }
-            {
+    },
+    {
         "name": "Muuu Nya",
         "direction": "web",
         "desc": "我左边的人正在找富婆",
-        "avatar": "../images/muuu.jpg",
+        "avatar": "/images/muuu.jpg",
         "blog": "https://nu1l-ctf.com"
     },
-            {
+    {
         "name": "kow",
         "direction": "web",
         "desc": "黑客大哥",
-        "avatar": "../images/kow.jpg",
+        "avatar": "/images/kow.jpg",
         "blog": "https://nu1l-ctf.com"
     },
-            {
+    {
         "name": "fei",
         "direction": "web",
         "desc": "blackhat",
-        "avatar": "../images/fei.jpg",
+        "avatar": "/images/fei.jpg",
         "blog": "https://nu1l-ctf.com"
     },
-            {
+    {
         "name": "cheery",
         "direction": "web",
         "desc": "渗透测试爱好者",
-        "avatar": "../images/cheery.jpg",
+        "avatar": "/images/cheery.jpg",
         "blog": "https://nu1l-ctf.com"
     },
-            {
+    {
         "name": "Mr.R",
         "direction": "Pwn",
         "desc": "想有个女朋友教我pwn",
-        "avatar": "../images/eye.jpg",
+        "avatar": "/images/eye.jpg",
         "blog": "https://nu1l-ctf.com"
     },
-            {
+    {
         "name": "xiaojunjie",
         "direction": "web",
         "desc": "会任何注入的俊杰师傅",
-        "avatar": "../images/le.jpg",
+        "avatar": "/images/le.jpg",
         "blog": "https://nu1l-ctf.com"
-    },        {
+    },
+    {
         "name": "Lucifaer",
         "direction": "web",
         "desc": "开发大佬",
-        "avatar": "../images/lu.jpg",
+        "avatar": "/images/lu.jpg",
         "blog": "https://nu1l-ctf.com"
     },
-            {
+    {
         "name": "喵神",
         "direction": "Misc",
         "desc": "硬件大佬",
-        "avatar": "../images/m.jpg",
+        "avatar": "/images/m.jpg",
         "blog": "https://nu1l-ctf.com"
     },
-            {
+    {
         "name": "梅子酒",
         "direction": "web",
         "desc": "想打LOL",
-        "avatar": "../images/meizijiu.jpg",
+        "avatar": "/images/meizijiu.jpg",
         "blog": "https://nu1l-ctf.com"
     },
-
-            {
+    {
         "name": "0xpoker",
         "direction": "Re",
         "desc": "我是弟弟",
-        "avatar": "../images/poker.jpg",
+        "avatar": "/images/poker.jpg",
         "blog": "https://nu1l-ctf.com"
     },
-            {
+    {
         "name": "Lz1y",
         "direction": "web",
         "desc": "Pentest小王子",
-        "avatar": "../images/lz.jpg",
+        "avatar": "/images/lz.jpg",
         "blog": "https://nu1l-ctf.com"
     },
-            {
+    {
         "name": "Panda0s",
         "direction": "Re",
         "desc": "想教女朋友逆向",
-        "avatar": "../images/pan.jpg",
+        "avatar": "/images/pan.jpg",
         "blog": "https://nu1l-ctf.com"
-    },            {
+    },
+    {
         "name": "xzh3h",
         "direction": "Re",
         "desc": "需要植发的逆向🐶",
-        "avatar": "../images/xzh.jpg",
+        "avatar": "/images/xzh.jpg",
         "blog": "https://nu1l-ctf.com"
-    },            {
+    },
+    {
         "name": "Smi1e",
         "direction": "web",
         "desc": "想学开发和二进制.jpg",
-        "avatar": "../images/smile.jpg",
+        "avatar": "/images/smile.jpg",
         "blog": "https://nu1l-ctf.com"
-    },            {
+    },
+    {
         "name": "Tac",
         "direction": "Pwn",
         "desc": "Pwn爷爷-1",
-        "avatar": "../images/tac.jpg",
+        "avatar": "/images/tac.jpg",
         "blog": "https://nu1l-ctf.com"
-    },            {
+    },
+    {
         "name": "V1NKe",
         "direction": "Pwn",
         "desc": "只想做一个与世无争的🐶",
-        "avatar": "../images/k.jpg",
+        "avatar": "/images/k.jpg",
         "blog": "https://nu1l-ctf.com"
-    },            {
+    },
+    {
         "name": "yypEx",
         "direction": "Re",
         "desc": "高速肥宅",
-        "avatar": "../images/icon.jpg",
+        "avatar": "/images/icon.jpg",
         "blog": "https://nu1l-ctf.com"
-    },            {
+    },
+    {
         "name": "OldTang",
         "direction": "Misc",
         "desc": "Anti Anti-Cheat",
-        "avatar": "../images/old.jpg",
+        "avatar": "/images/old.jpg",
         "blog": "https://nu1l-ctf.com"
     },
-               {
+    {
         "name": "coc",
         "direction": "Pwn",
         "desc": "ddw",
-        "avatar": "../images/chenyou.jpg",
+        "avatar": "/images/chenyou.jpg",
         "blog": "https://nu1l-ctf.com"
     },
     {
         "name": "弓木长南",
         "direction": "Crypto",
         "desc": "嘤QAQ",
-        "avatar": "../images/gong.jpg",
+        "avatar": "/images/gong.jpg",
         "blog": "https://nu1l-ctf.com"
     }
 ]

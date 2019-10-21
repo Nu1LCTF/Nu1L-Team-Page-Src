@@ -13,9 +13,9 @@ const SMenu = () => (
         <Menu size='large' pointing secondary inverted style={{ border: "0px" }}>
             <Container>
                 <Menu.Item as={NavLink} name='home' to='/' activeClassName='active' exact> Home </Menu.Item>
-                <Menu.Item as={NavLink} name='members' to='/members' activeClassName='active'>Members</Menu.Item>
-                <Menu.Item as={NavLink} name='home' to='/awards' activeClassName='active'>Awards</Menu.Item>
-                <Menu.Item as={NavLink} name='contact' to='/contact' activeClassName='active'>Contact Us</Menu.Item>
+                <Menu.Item as='a' name='GitHub' href="https://github.com/Nu1LCTF/" activeClassName='active'>GitHub</Menu.Item>
+                <Menu.Item as='a' name='Twitter' href="https://twitter.com/Nu1L_Team" activeClassName='active'>Twitter</Menu.Item>
+                <Menu.Item as='a' name='Write-ups' href="https://wx.zsxq.com/dweb2/index/group/824215518412" activeClassName='active'>Write-ups</Menu.Item>
             </Container>
         </Menu>
 
