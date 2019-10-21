@@ -34,9 +34,9 @@ export default class AwardFeed extends React.Component {
                                     {item.title}
                                     <Feed.Date>{item.date}</Feed.Date>
                                 </Feed.Summary>
-                                <Feed.Extra text>
+                                {/* <Feed.Extra text>
                                     {item.desc}
-                                </Feed.Extra>
+                                </Feed.Extra> */}
                             </Feed.Content>
                         </Feed.Event>
                     )}

@@ -20,15 +20,14 @@ const Awards = () => (
                         Awarded in the competitions
             </Header>
                     <p style={{ fontSize: '1.33em' }} >
-                        We can give your company superpowers to do things that they never thought possible.
-                        Let us delight your customers and empower your needs... through pure data analytics.
+                        As a CTF team, we have received a lot of awards from different competitions from
+                        time to time. 
             </p>
                     <Header as='h3' style={{ fontSize: '2em' }} inverted>
                         But more than awards
             </Header>
                     <p style={{ fontSize: '1.33em' }} >
-                        Yes that's right, you thought it was the stuff of dreams, but even bananas can be
-                        bioengineered.
+                        Yes that's right, what we want is not only awards, but also contribute to the community of CTF.
             </p>
                 </Grid.Column>
             </Grid.Row>
