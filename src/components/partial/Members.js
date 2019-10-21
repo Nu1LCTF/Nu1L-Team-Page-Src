@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Segment, Grid, Image, Button, Popup, Header, Container } from 'semantic-ui-react';
+import { Card, Segment, Grid, Image, Button, Header } from 'semantic-ui-react';
 
 export default class Members extends React.Component {
     constructor(props) {
@@ -36,7 +36,7 @@ export default class Members extends React.Component {
                             <Grid.Column>
                                 <Card.Group stackable centered>
                                     {this.state.member.map((member, index) =>
-                                                <Card>
+                                                <Card key={'member-' + index}>
                                                     <Card.Content>
                                                         <Image
                                                             floated='right'

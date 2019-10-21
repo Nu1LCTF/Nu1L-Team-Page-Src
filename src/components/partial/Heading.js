@@ -5,11 +5,10 @@ import {
     Header,
     Segment,
     Image,
-    Reveal,
 } from 'semantic-ui-react'
 
 const Heading = () => (
-    <Segment inverted vertical>
+    <Segment inverted vertical >
         <Container text style={{ minHeight: 500, }}>
             <Header
                 as='h1'

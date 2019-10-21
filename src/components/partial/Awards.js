@@ -19,14 +19,14 @@ const Awards = () => (
                     <Header as='h3' style={{ fontSize: '2em' }} inverted>
                         Awarded in the competitions
             </Header>
-                    <p style={{ fontSize: '1.33em' }} inverted>
+                    <p style={{ fontSize: '1.33em' }} >
                         We can give your company superpowers to do things that they never thought possible.
                         Let us delight your customers and empower your needs... through pure data analytics.
             </p>
                     <Header as='h3' style={{ fontSize: '2em' }} inverted>
                         But more than awards
             </Header>
-                    <p style={{ fontSize: '1.33em' }} inverted>
+                    <p style={{ fontSize: '1.33em' }} >
                         Yes that's right, you thought it was the stuff of dreams, but even bananas can be
                         bioengineered.
             </p>

@@ -25,7 +25,7 @@ export default class AwardFeed extends React.Component {
             return (
                 <Feed>
                     {this.state.items.map((item, index) =>
-                        <Feed.Event>
+                        <Feed.Event key={item.title}>
                             <Feed.Label>
                                 <Icon name={item.icon} />
                             </Feed.Label>

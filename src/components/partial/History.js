@@ -4,7 +4,7 @@ import {
     Grid,
     Header,
     Segment,
-    Statistic,
+    Image,
 } from 'semantic-ui-react'
 
 const History = () => (
@@ -31,9 +31,8 @@ const History = () => (
                         bioengineered.
             </p>
                 </Grid.Column>
-                <Grid.Column floated='right' width={6}>
-                    <Statistic label='Team Members' value='42' size='huge' />
-                    <p>或者这里放张图, 把队员的头像搞个图 (斜着的瀑布流...)</p>
+                <Grid.Column floated='right' width={6} only='computer tablet'>
+                    <Image bordered rounded size='large' src='/images/logo-round.png' />
                 </Grid.Column>
 
             </Grid.Row>
