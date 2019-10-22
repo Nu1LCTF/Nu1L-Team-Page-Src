@@ -17,17 +17,16 @@ const Awards = () => (
                 </Grid.Column>
                 <Grid.Column floated='right' width={6} verticalAlign='middle'>
                     <Header as='h3' style={{ fontSize: '2em' }} inverted>
-                        Awarded in the competitions
+                    Awards
             </Header>
                     <p style={{ fontSize: '1.33em' }} >
-                        As a CTF team, we have received a lot of awards from different competitions from
-                        time to time. 
+                        We have won lots of awards in different competitions since the beginning.
             </p>
                     <Header as='h3' style={{ fontSize: '2em' }} inverted>
-                        But more than awards
+                    And ...
             </Header>
                     <p style={{ fontSize: '1.33em' }} >
-                        Yes that's right, what we want is not only awards, but also contribute to the community of CTF.
+                        We are trying hard to contribute to the CTF community, bringing more geeks into the hacking world.
             </p>
                 </Grid.Column>
             </Grid.Row>
