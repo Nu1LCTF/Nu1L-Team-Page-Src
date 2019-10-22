@@ -25,3 +25,4 @@ jobs:
           EXTERNAL_REPOSITORY: Nu1LCTF/Nu1L-Team-Page 
           PUBLISH_BRANCH: master
           PUBLISH_DIR: ./build
+          CNAME: nu1l-ctf.com
