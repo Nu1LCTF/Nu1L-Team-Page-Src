@@ -32,9 +32,6 @@ const History = () => (
                     <p style={{ fontSize: '1.33em' }}>
                         We've also hosted N1CTF2018 & N1CTF2019, which have won praises from all over the world. Read more on <a href="https://ctftime.org/team/19208">CTFTime.</a>
                     </p>
-                    <p style={{ fontSize: '1.33em' }}>
-                        Whose members participated in professional hacking contests like Pwn2Own & Geekpwn and security conferences like HITCON, KCON, and Blackhat.
-                </p>
                 </Grid.Column>
                 <Grid.Column floated='right' width={7} only='computer tablet'>
                     <Image size='huge' src='/images/logo-round.png' />
