@@ -199,7 +199,7 @@
         "name": "fei",
         "direction": "web",
         "desc": "blackhat",
-        "avatar": "/images/fei.jpg",
+        "avatar": "/images/fie.jpg",
         "blog": "https://nu1l-ctf.com"
     },
     {
@@ -319,6 +319,13 @@
         "direction": "Crypto",
         "desc": "嘤QAQ",
         "avatar": "/images/gong.jpg",
+        "blog": "https://nu1l-ctf.com"
+    }, 
+    {
+        "name": "Thinking",
+        "direction": "BlockChain",
+        "desc": "Hack Your Brain Be Curious",
+        "avatar": "/images/thinking.png",
         "blog": "https://nu1l-ctf.com"
     }
 ]
