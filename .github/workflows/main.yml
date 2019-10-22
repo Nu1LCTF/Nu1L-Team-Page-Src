@@ -16,7 +16,9 @@ jobs:
           frozen-lockfile: true
 
       - name: Build
-        run: yarn build
+        run: |
+          yarn build
+          cp ./CNAME ./build/CNAME
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v2.5.0
