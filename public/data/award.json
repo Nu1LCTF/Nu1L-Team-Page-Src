@@ -2,7 +2,12 @@
     {
         "date": "2019.10",
         "icon": "chess king",
-        "title": "Ranked 1st locally in the 工信部\"护网杯\"2019"
+        "title": "Ranked 1st locally in the XCTF Finals"
+    },
+    {
+        "date": "2019.10",
+        "icon": "chess king",
+        "title": "Ranked 1st locally in the \"护网杯\"2019决赛"
     },
     {
         "date": "2019.09",
@@ -15,14 +20,9 @@
         "title": "Ranked 7th globally in the TokyoWesterns CTF 5th 2019"
     },
     {
-        "date": "2019.07",
-        "icon": "chess king",
-        "title": "Ranked 6th globally in the WCTF 2019"
-    },
-    {
         "date": "2019",
         "icon": "chess king",
-        "title": "Ranked 1st globally in the LCTF for three years"
+        "title": "Ranked 1st globally in the LCTF&SCTF for three years"
     },
     {
         "date": "2018.09",

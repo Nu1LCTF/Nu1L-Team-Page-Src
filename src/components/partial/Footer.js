@@ -13,7 +13,7 @@ const Footer = () => (
             <Grid divided inverted stackable>
                 <Grid.Row>
                     <Grid.Column textAlign='center'>
-                        Nu1L Team &copy; 2015 - 2019  All Rights Reserved.
+                        Nu1L Team &copy; 2015 - 2020  All Rights Reserved.
                     </Grid.Column>
                 </Grid.Row>
             </Grid>
