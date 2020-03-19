@@ -7,24 +7,40 @@ on:
 
 jobs:
   build-deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
 
-      - uses: sergioramos/yarn-actions/install@master
+      - uses: sergioramos/yarn-actions/install@v6
         with:
           frozen-lockfile: true
 
       - name: Build
-        run: |
-          yarn build
-          cp ./CNAME ./build/CNAME
+        run: yarn build
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v2.5.0
+      - name: Deploy-Main
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v1
+        with:
+          repo: Nu1LCTF/Nu1L-Team-Page-Main
+          target_branch: master
+          build_dir: build
+          committer_name: Nu1l DevOps
+          committer_email: devops@nu1l.com
+          fqdn: nu1l.com
         env:
-          ACTIONS_DEPLOY_KEY: ${{ secrets.SECRET_KEY }}
-          EXTERNAL_REPOSITORY: Nu1LCTF/Nu1L-Team-Page 
-          PUBLISH_BRANCH: master
-          PUBLISH_DIR: ./build
-          CNAME: nu1l-ctf.com
+          GITHUB_PAT: ${{ secrets.GITHUB_PAT_FOR_NU1L }}
+
+      - name: Deploy-Slave
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v1
+        with:
+          repo: Nu1LCTF/Nu1L-Team-Page-Slave
+          target_branch: master
+          build_dir: build
+          committer_name: Nu1l DevOps
+          committer_email: devops@nu1l.com
+          fqdn: nu1l-ctf.com
+        env:
+          GITHUB_PAT: ${{ secrets.GITHUB_PAT_FOR_NU1L }}
+
