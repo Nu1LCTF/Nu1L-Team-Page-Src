@@ -41,7 +41,7 @@ export default class JoinUsModal extends Component {
                 <Header icon='user secret' content='Tell Us More About Youself' />
                 <Modal.Content>
                     <p>
-                        Send following data to our email 'root@Nu1L.com'.
+                        Send following data to our email 'root@nu1l.com'.
             </p>
                     <List>
                         <List.Item>ID: `Incognito`</List.Item>
