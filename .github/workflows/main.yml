@@ -18,29 +18,11 @@ jobs:
       - name: Build
         run: yarn build
 
-      - name: Deploy-Main
-        if: success()
-        uses: crazy-max/ghaction-github-pages@v1
+      - name: push
+        uses: manyuanrong/setup-ossutil@v1.0
         with:
-          repo: Nu1LCTF/Nu1L-Team-Page-Main
-          target_branch: master
-          build_dir: build
-          committer_name: Nu1l DevOps
-          committer_email: devops@nu1l.com
-          fqdn: nu1l.com
-        env:
-          GITHUB_PAT: ${{ secrets.GITHUB_PAT_FOR_NU1L }}
-
-      - name: Deploy-Slave
-        if: success()
-        uses: crazy-max/ghaction-github-pages@v1
-        with:
-          repo: Nu1LCTF/Nu1L-Team-Page-Slave
-          target_branch: master
-          build_dir: build
-          committer_name: Nu1l DevOps
-          committer_email: devops@nu1l.com
-          fqdn: nu1l-ctf.com
-        env:
-          GITHUB_PAT: ${{ secrets.GITHUB_PAT_FOR_NU1L }}
+          endpoint: ${{ secrets.OSS_REGION }}
+          access-key-id: ${{ secrets.OSS_ACCESS_ID }}
+          access-key-secret: ${{ secrets.OSS_SECRET_KEY }}
+      - run: ossutil cp ./build/ oss://${{ secrets.OSS_BUCKET }}/ --exclude "*.png" --exclude "*.jpg" -rf
 
