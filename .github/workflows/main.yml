@@ -3,7 +3,7 @@ name: github pages
 on:
   push:
     branches:
-    - master
+      - master
 
 jobs:
   build-deploy:
@@ -24,5 +24,6 @@ jobs:
           endpoint: ${{ secrets.OSS_REGION }}
           access-key-id: ${{ secrets.OSS_ACCESS_ID }}
           access-key-secret: ${{ secrets.OSS_SECRET_KEY }}
-      - run: ossutil cp ./build/ oss://${{ secrets.OSS_BUCKET }}/ --exclude "*.png" --exclude "*.jpg" -rf
+
+      - run: ossutil cp  -rf ./build/ oss://${{ secrets.OSS_BUCKET }}/ --exclude "*.png" --exclude "*.jpg"
 
