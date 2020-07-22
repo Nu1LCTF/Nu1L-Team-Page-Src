@@ -92,7 +92,7 @@ export default class JoinUsModal extends Component {
                             marginTop: '3em',
                         }}
                     >
-                        <Image src='/images/logo.png' />
+                        <Image src='/images/logo.png.webp' />
                         <Header.Content>
                             Nu1L Team
         <Header.Subheader

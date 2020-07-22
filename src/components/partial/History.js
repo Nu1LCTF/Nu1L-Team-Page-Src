@@ -34,7 +34,7 @@ const History = () => (
                     </p>
                 </Grid.Column>
                 <Grid.Column floated='right' width={7} only='computer tablet'>
-                    <Image size='huge' src='/images/logo-round.png' />
+                    <Image size='huge' src='/images/logo-round.png.webp' />
                 </Grid.Column>
 
             </Grid.Row>
