@@ -14,7 +14,7 @@ import Particles from 'react-particles-js'
 export default class JoinUsModal extends Component {
     componentDidMount() {
         const script = document.createElement("script");
-        script.src = "https://cdn.rawgit.com/progers/pathseg/master/pathseg.js";
+        script.src = "https://cdn.jsdelivr.net/npm/pathseg@1.2.0/pathseg.js";
         script.async = true;
 
         document.body.appendChild(script);
