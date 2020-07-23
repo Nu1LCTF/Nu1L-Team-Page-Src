@@ -16,7 +16,7 @@ const SMenu = () => (
             <Container>
                 <Menu.Item as={NavLink} name='home' to='/' activeClassName='active' exact><Icon name='home' /></Menu.Item>
                 <Menu.Item as='a' name='GitHub' href="https://github.com/Nu1LCTF/">GitHub</Menu.Item>
-                <Popup trigger={<Menu.Item name='WeChat'>WeChat</Menu.Item>} ><Image size='small' src='images/wechat.jpg'></Image></Popup>
+                <Popup trigger={<Menu.Item name='WeChat'>WeChat</Menu.Item>} ><Image size='small' src='images/wechat.jpg.webp'></Image></Popup>
                 <Menu.Item as='a' name='Writeups' href="https://wx.zsxq.com/dweb2/index/group/824215518412">WriteUp</Menu.Item>
                 <Menu.Item as='a' name='N1Book' href="https://book.nu1l.com/">N1BOOK</Menu.Item>
                 <Menu.Item as='a' name='NPointer' href="https://www.npointer.cn/">NPointer</Menu.Item>
