@@ -13,7 +13,7 @@ const Footer = () => (
             <Grid divided inverted stackable>
                 <Grid.Row>
                     <Grid.Column textAlign='center'>
-                        Nu1L Team &copy; 2015 - 2020  All Rights Reserved.
+                        Nu1L Team &copy; 2015 - 2020  All Rights Reserved. <a href="http://beian.miit.gov.cn/" target="_blank">鲁ICP备20029104号</a>
                     </Grid.Column>
                 </Grid.Row>
             </Grid>
