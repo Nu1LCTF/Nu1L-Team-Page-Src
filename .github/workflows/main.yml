@@ -1,0 +1,21 @@
+name: github pages
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+
+      - name: push
+        uses: manyuanrong/setup-ossutil@v2.0
+        with:
+          endpoint: ${{ secrets.OSS_REGION }}
+          access-key-id: ${{ secrets.OSS_ACCESS_ID }}
+          access-key-secret: ${{ secrets.OSS_SECRET_KEY }}
+
+      - run: ossutil cp  -rf ./public/ oss://${{ secrets.OSS_BUCKET }}/
